@@ -1,4 +1,5 @@
 const uuid = require('uuid');
+const bodyParser = require('body-parser');
 
 // This module provides volatile storage, using a `BlogPost`
 // model. We haven't learned about databases yet, so for now
@@ -36,7 +37,7 @@ const BlogPosts = {
     // return posts sorted (descending) by
     // publish date
     return this.posts.sort(function(a, b) {
-      return b.publishDate - a.publishDate
+      return b.publishDate - a.publishDate;
     });
   },
   delete: function(id) {
