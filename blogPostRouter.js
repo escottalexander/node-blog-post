@@ -58,7 +58,7 @@ router.get('/', (req, res) => {
       content: req.body.content,
       author: req.body.author
     });
-    res.status(204).end();
+    res.status(200).json(updatedItem);
   })
   
   module.exports = router;
