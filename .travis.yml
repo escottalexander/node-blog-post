@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: CV5bu1lFfN2LZu0KUg9UocDGKyimFV8g4v6kqTA1gXHzcltuGe4jR7Xfx+XBXKNSVGHwaNFXea1I6x1M5RRfkWO1zzVj6y60bgXY9hMYaERT2uXw3aURLm31cciS8uBu7nfvtrUGDfAgJh5/zXzGezaZa8NejtYNuIeZpxat3FVo6X/fIX9Ml23sfjNssZ9jmSky7TR9HU6e8N/PtvtD1TgIL6PgnhIGy/81EWNTNID5rvBkDUGvLQD+eHZ1bCMPjnXlTkAGpUhB2aZU8JOenSqjJogOXNGySBMnHNAhkisRCM3QXAVeJEoSnULeTLJYqBaOBIiIPnSYAZIqc4QL9taCQgRMBo2oAZwYohQ8gnADA7BOlGOwAu/VrrWk7f/foPHgQ2dX/N2/opb9B81n979f/N8WTNBXd4hFTYicD+6g9C5Ggz+pCUnd3vL2PTVwSo4XgZww2zjaG6AVpINmcclWfT/ifj+xxKOjL9Gh4Kww8V5WKxjmfBuHsShC3XbJKi1oebREyfWOrwyA0b/ZONlfSpb6SeATg0oLBGEzPHnuhXs+ygkyYSIoX+GA4CCJEFmpXjoiHMVkJKmNo0x8mks71uhQqFAMMrvjVO8hCMy1x6fmUM7/7o7HsfzCsWSs8hdzgw9Hnix1ReCiEI+X8RvU7SzPufCN+hyl8OeAKSQ=
+  app: sheltered-depths-62708
+  on:
+    repo: escottalexander/node-blog-post
